@@ -9,7 +9,7 @@ edition = "2021"
 cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
 cortex-m-rt = "0.7.3"
 panic-semihosting = "0.6.0"
-xmc4-hal = { version = "0.3.4", features = ["xmc4200"] }
+xmc4-hal = { version = "0.4.0", features = ["xmc4200"] }
 
 
 [features]
