@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 cortex-m = { version = "0.7.7", features = ["critical-section-single-core"] }
-cortex-m-rt = "0.7.3"
+cortex-m-rt = "0.7.4"
 panic-semihosting = "0.6.0"
 xmc4-hal = { version = "0.5.1", features = ["xmc4200"] }
 
